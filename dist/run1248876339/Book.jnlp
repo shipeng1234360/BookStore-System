@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Book.jnlp">
+  <information>
+    <title>Book</title>
+    <vendor>Kyron</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Book.jar" size="32824" download="eager" />
+    <jar href="lib\commons-lang3-3.8.1.jar" size="501879" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\hsqldb-2.5.0.jar" size="1570408" download="eager" />
+    <jar href="lib\jackcess-3.0.1.jar" size="1271273" download="eager" />
+    <jar href="lib\ucanaccess-5.0.0.jar" size="387604" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Book" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="book.Main"  name="Book" />
+  <update check="always"/>
+</jnlp>
